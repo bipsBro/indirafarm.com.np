@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Indira Krishi & Pashu Farm</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7f2;
+      color: #2d2d2d;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6') center/cover no-repeat;
+      height: 60vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.5rem;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card p {
+      padding: 15px;
+      font-size: 1rem;
+    }
+    footer {
+      background: #2d2d2d;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Indira Krishi & Pashu Farm</h1>
+    <p>Organic Farming • Dairy Production • Fresh Vegetables</p>
+  </header>
+
+  <section>
+    <h2>About Our Farm</h2>
+    <p>
+      Indira Krishi & Pashu Farm is a family-run organic farm dedicated to producing fresh,
+      chemical-free vegetables and high-quality dairy products. Our mission is to provide healthy
+      and natural food directly from our fields and barns to your home.
+    </p>
+  </section>
+
+  <section>
+    <h2>Our Dairy Farm</h2>
+    <div class="container">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1503220317375-aaad61436b1b" alt="Cows in dairy farm" />
+        <p>Healthy cows raised with care, producing fresh and pure milk every day.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1588167100290-8770ae9bc61d" alt="Milk production" />
+        <p>We follow hygienic milking and storage processes to ensure premium dairy quality.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Organic Vegetable Production</h2>
+    <div class="container">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e" alt="Fresh vegetables" />
+        <p>Wide variety of naturally grown vegetables—fresh, tasty, and pesticide‑free.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" alt="Organic farm" />
+        <p>Farm-to-table approach ensuring maximum freshness and nutrition.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Indira Krishi & Pashu Farm • All Rights Reserved</p>
+  </footer>
+</body>
+</html>
